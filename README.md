@@ -52,7 +52,6 @@ Durin uses [foundry](https://github.com/foundry-rs/foundry), to install follow t
 
 ### 4. Prepare .env
 
-
 ```shell
 cp example.env .env
 ```
@@ -89,6 +88,7 @@ Only the Registrar can call `register` on the Registry. The owner of the registr
 ```shell
 bash deploy/configureRegistry.sh
 ```
+
 ## Contracts
 
 This repo includes the L2 contracts required to enable subname issuance.
@@ -114,6 +114,12 @@ This repo includes the L2 contracts required to enable subname issuance.
 | Linea Sepolia    | [`0xA59eF1DCc0c4bcbDC718b95c0680b6B97Bb451eb`](https://sepolia.lineascan.build/address/0xA59eF1DCc0c4bcbDC718b95c0680b6B97Bb451eb)       |
 
 ## Architecture
+
 ![architecture](https://github.com/user-attachments/assets/06065784-0516-498e-a512-d7b63892599a)
 
+## Deployed Registries & Registrars
 
+| L1 ENS         | Registry Factory                                                                                                                | Registrar Address                                                                                                               |
+| -------------- | ------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------- |
+| foodi.eth      | [`0x8e822566b010bde8a40f8603bf7003b4b890661d`](https://sepolia.basescan.org/address/0x8e822566b010bde8a40f8603bf7003b4b890661d) | [`0xD1eA89F676763b6238951adc2D5521D0e0Cddb4d`](https://sepolia.basescan.org/address/0xD1eA89F676763b6238951adc2D5521D0e0Cddb4d) |
+| foodiverse.eth | [`0x9c7b2295786fdbd77325802996e3f6d0484407d0`](https://sepolia.basescan.org/address/0x9c7b2295786fdbd77325802996e3f6d0484407d0) | [`0xf2Fb39bBfA77D9beF88b319360BF963Ea208a0f2`](https://sepolia.basescan.org/address/0xf2Fb39bBfA77D9beF88b319360BF963Ea208a0f2) |
